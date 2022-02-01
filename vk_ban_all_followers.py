@@ -11,7 +11,7 @@ followersCount = ourFollowersList.get("count")
 multiplePasses = True
 additionalValue = 0
 
-while multiplePasses != False:
+while multiplePasses:
 	iterator = 0
 	for userID in ourFollowersList.get("items"):
 		if iterator == 0:
